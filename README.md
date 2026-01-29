@@ -30,11 +30,17 @@ Input Image (Hazy Scene)
  Plate Crop (DCP-applied)
         |
  ┌───────────────┬────────────────────┬─────────────────────────┐
+ 
  |               |                    |
+ 
  RAW         CLAHE-light       SR2× + CLAHE-light
+ 
  |               |                    |
+ 
  PaddleOCR     PaddleOCR            PaddleOCR
+ 
  |               |                    |
+ 
  └───────────────┴────────────────────┴───────────────┐
                 Plate-aware Scoring & Selection
                 (structure, ambiguity, confidence)
