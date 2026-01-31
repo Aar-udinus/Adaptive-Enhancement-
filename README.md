@@ -80,9 +80,9 @@ The proposed adaptive method achieves:
 
 100% readability rate
 
-90.67% end-to-end exact accuracy
+92.67% end-to-end exact accuracy
 
-98.25% average character accuracy
+98.45% average character accuracy
 
 These results outperform fixed preprocessing baselines such as direct crop OCR and super-resolution-only pipelines under hazy conditions.
 
